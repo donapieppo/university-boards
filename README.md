@@ -1,2 +1,3 @@
-# university-board
-First try for various boards nd votings
+# README
+
+First try for various boards and votings
