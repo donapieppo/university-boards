@@ -1,0 +1,11 @@
+<%= dm_menu do %>  
+  <%= dm_header %>
+
+  <% if current_user && current_organization %>
+    <%= dm_nav do  %>  
+      <% if current_user.is_cesia? %>
+        <li><%= link_to big_dmicon('building') + ' organizzazioni', main_app.organizations_path %></li>
+      <% end %>
+    <% end %>
+  <% end %>
+<% end %>
